@@ -1,0 +1,26 @@
+# Machine Learning Weights & Checkpoints
+*.pkl
+*.pth
+*.pkl.gz
+.ipynb_checkpoints/
+
+# Massive Geospatial & Tabular Datasets
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.h5
+*.tif
+*.tiff
+*.nc
+*.csv
+*.parquet
+
+# Python Environment & System Files
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+.streamlit/
+.DS_Store
